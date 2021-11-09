@@ -1,0 +1,12 @@
+/*
+Theme name: Mon theme à moi
+Theme URI: http://promo-93.codeur.online/
+Author: ACS Lons le Saunier
+Author URI: https://www.accesscodeschool.fr/
+Description: Mon premier template que j'ai créé tout seul comme un grand
+Version: 1.0
+*/
+
+header{
+    height:50vh; overflow:hidden;
+}
