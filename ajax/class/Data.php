@@ -5,6 +5,12 @@ class Data extends Database
 
 
         // Ici nous allons faire en sorte de récupérer toutes les données issues de plusieurs tables dans le cas ou la requete est capable de trouver une entrée commune à chacune des tables
+                
+        /**
+         * getAll
+         *
+         * @return void
+         */
         public function getAll()
         {
                 $datas = $this->connect()->prepare(
@@ -31,7 +37,12 @@ class Data extends Database
                 $allDatasJSON = json_encode($allDatas);
                 echo $allDatasJSON;
         }
-
+        
+        /**
+         * Insérer une région en BDD
+         *
+         * @return void
+         */
         public function insertRegion()
         {
                 $supprimer = $this->connect()->prepare('Delete from regions');

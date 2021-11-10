@@ -1,35 +1,41 @@
 <?php
-/* Template name: Gabarit Homepage */ 
+/* Template name: Gabarit Homepage */
 
 
 include('header.php');
 ?>
 
 <header>
-<div class="container-fluid">
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://via.placeholder.com/150" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://via.placeholder.com/151" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://via.placeholder.com/152" class="d-block w-100" alt="...">
+  <div class="container-fluid">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+
+        <?php $lesphotos = get_field("les-photos");
+
+        foreach ($lesphotos as $laphoto) {
+          echo '  <div class="carousel-item active">';
+          echo '<img src="' . $laphoto['photo'] . '" class="d-block w-100" alt="..."/> ';
+          echo '</div>';
+        }
+
+        ?>
+      </div>
     </div>
   </div>
-</div>
-</div>
 </header>
+
+<?php echo "<pre>";
+var_dump(get_field("les-photos"));
+echo "</pre>"; ?>
 
 
 
 <div class="container">
-    <h1><?php the_title(); ?></h1>
-    <div class="content">
+  <h1><?php the_title(); ?></h1>
+  <div class="content">
     <?php the_content(); ?>
-    </div>
+  </div>
 </div>
 
 
@@ -38,4 +44,3 @@ include('header.php');
 include('footer.php');
 
 ?>
-
