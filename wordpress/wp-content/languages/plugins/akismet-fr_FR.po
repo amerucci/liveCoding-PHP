@@ -620,10 +620,6 @@ msgstr "%s a rapporté ce commentaire comme indésirable."
 msgid "%1$s changed the comment status to %2$s."
 msgstr "%1$s a changé l&rsquo;état du commentaire en %2$s."
 
-#: class.akismet-admin.php:646
-msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
-msgstr "Akismet a été incapable de revérifier ce commentaire (réponse : %s) mais réessayera automatiquement plus tard."
-
 #: class.akismet-admin.php:612
 msgid "Akismet cleared this comment."
 msgstr "Akismet a validé ce commentaire."
@@ -705,10 +701,6 @@ msgstr "Marqué comme indésirable par Akismet"
 #: class.akismet-admin.php:529
 msgid "Awaiting spam check"
 msgstr "En attente de vérification"
-
-#: class.akismet-admin.php:654
-msgid "Akismet was unable to recheck this comment (response: %s)."
-msgstr "Akismet a été incapable de revérifier ce commentaire (réponse : %s)."
 
 #: class.akismet-admin.php:609
 msgid "Akismet re-checked and cleared this comment."
