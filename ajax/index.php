@@ -48,9 +48,13 @@ if(isset($_GET['insertData'])){
 
 
 
+
 //Hydratation select pour les regions
 $regions = new Data;
 $regions = $regions->getRegionsList();
+//$regions = $datas
+
+// ['reunion', 'Bourgogne',...]
 
 
 
