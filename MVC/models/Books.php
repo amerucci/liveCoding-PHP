@@ -44,6 +44,13 @@ class Books extends Database {
         return $books->fetchAll();
     }
 
+    public function singleBook($what){
+        $books = $this->connect()->prepare("SELECT * FROM lpecom_livres WHERE id_livre = :id");
+        $books->bindParam(":id", $what);
+        $books->execute();
+        return $books->fetch();
+    }
+
 
 
 }

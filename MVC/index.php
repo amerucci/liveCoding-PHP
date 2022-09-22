@@ -58,6 +58,6 @@ if(empty($_GET['page'])){
     switch($_GET['page']){
         // case "accueil" : homePage();
         // break;
-        default : homePage();
+        default : detailPage($_GET['page']);
     }
 }

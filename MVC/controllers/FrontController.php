@@ -23,11 +23,33 @@
 
 // Très bien, nous arrivons à recupérer les résultats maintenant nous allons faire en sorte de les afficher
 
+// require_once('./models/Books.php');
+
+// function homePage(){
+//     $home = new Books;
+//     $books = $home->getAllBooks();
+//     require(__DIR__ . "/../views/homePage.php");
+
+// }
+
+// Alors la on est pas mal mais le soucis c'est que quand nous entrons dans le détail la page se recharge, nous alons devoir créer une nouvelle.
+// Cependant nous allons pas nous amuser à chaque fois à rappeler toute la structure de la page
+// C'est pourquoi nous allons voir comment créer une structure globale et n'afficher dedans que ce dont nous avons besoin en fonction des cas de figue.
+
 require_once('./models/Books.php');
 
 function homePage(){
     $home = new Books;
     $books = $home->getAllBooks();
-    require(__DIR__ . "/../views/homePage.php");
+    require(__DIR__ . "/../views/books.php");
 
 }
+
+function detailPage($what){
+    $detail = new Books;
+    $book = $detail->singleBook($what);
+    require(__DIR__ . "/../views/single.php");
+
+}
+
+
