@@ -23,3 +23,17 @@ Pour commencer ce projet nous allons commencer par mettre en place la structre d
 - Views : Pour les parties de code permettant de faie de l'affichage (template, afficahge spécifiques...)
 
 Le fichier Index va jouer le role de routeur. C'est lui qui va diriger la demande de l'utilisateur vers le contröleu du site qui s'occuper de la partie en question.
+
+## Le fichier .htaccess
+
+Pour accéder à notre page d'accueil nous pouvons écrire dans la barre d'adresse : 
+http:/:localhost/livecodingmvc/
+http:/:localhost/livecodingmvc/index.php
+http:/:localhost/livecodingmvc/index.php?page=accueil
+
+Après l'on peut constater que cette méthode n'est pas très optimal et nous souhaitons avoir des urls dites propres.
+Pour ce faire nous allons mettre en place un fichier .htaccess qui nous permettra de faire une réécriture d'url.
+
+Toutes nos pages partiront de la page index.php et les urls auront toutes la structure suivante : **index.php?page=**
+
+
