@@ -36,4 +36,16 @@ Pour ce faire nous allons mettre en place un fichier .htaccess qui nous permettr
 
 Toutes nos pages partiront de la page index.php et les urls auront toutes la structure suivante : **index.php?page=**
 
+Pour améliorer l'affichage de nos urls, notre fichier **.htaccess** va réécrire notre url de cette façon : 
+http:/:localhost/livecodingmvc/index.php?page=accueil -> http:/:localhost/livecodingmvc/accueil
+
+Voici le contenu du fichie .htaccess
+
+RewriteEngine On <- Ici on lui indique que l'on va procéder à de la réécriture d'url
+
+RewriteCond %{REQUEST_FILENAME} !-f <- condition qui permet d'empecher d'aller directement sur un fichier
+RewriteCond %{REQUEST_FILENAME} !-d <- condition qui permet d'empecher d'aller directement sur un dossier
+
+RewriteRule ^(.*)$ index.php?page=$1 <- Ici on indique que l'on veut réécrire toutes nos url
+
 
