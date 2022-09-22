@@ -18,9 +18,9 @@ Au final, le site n'aura plus qu'une seule page, la page index.php
 
 Pour commencer ce projet nous allons commencer par mettre en place la structre de notre projet avec la création de 3 dossiers
 
-- Controllers : Pour le pilotage / assemblage des pages
-- Models : Pour la récupération et la manipulation des données (Classes / Accès Base de Données)
-- Views : Pour les parties de code permettant de faie de l'affichage (template, afficahge spécifiques...)
+- **Controllers** : Pour le pilotage / assemblage des pages
+- **Models** : Pour la récupération et la manipulation des données (Classes / Accès Base de Données)
+- **Views** : Pour les parties de code permettant de faie de l'affichage (template, afficahge spécifiques...)
 
 Le fichier Index va jouer le role de routeur. C'est lui qui va diriger la demande de l'utilisateur vers le contröleu du site qui s'occuper de la partie en question.
 
