@@ -43,9 +43,9 @@ Voici le contenu du fichie .htaccess
 
 RewriteEngine On <- Ici on lui indique que l'on va procéder à de la réécriture d'url
 
-RewriteCond %{REQUEST_FILENAME} !-f <- condition qui permet d'empecher d'aller directement sur un fichier
-RewriteCond %{REQUEST_FILENAME} !-d <- condition qui permet d'empecher d'aller directement sur un dossier
+RewriteCond %{REQUEST_FILENAME} !-f *<- condition qui permet d'empecher d'aller directement sur un fichier*
+RewriteCond %{REQUEST_FILENAME} !-d *<- condition qui permet d'empecher d'aller directement sur un dossier*
 
-RewriteRule ^(.*)$ index.php?page=$1 <- Ici on indique que l'on veut réécrire toutes nos url
+RewriteRule ^(.*)$ index.php?page=$1 *<- Ici on indique que l'on veut réécrire toutes nos url*
 
 
