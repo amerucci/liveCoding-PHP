@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+<body>
+
+<h2>Utilisation d'AJAX et XML</h2>
+
+<button type="button" onclick="chargeXml()">Dis moi ce que j'ecoute</button>
+<br><br>
+<table id="icionchargelaliste"></table>
+
+<script>
+function chargeXml() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      functionDeListage(this);
+    }
+  };
+  xhttp.open("GET", "catalogue_cd.xml", true);
+  xhttp.send();
+}
+function functionDeListage(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Artist</th><th>Titre</th><th>Annee</th><th>Nombre de titre</th></tr>";
+  var x = xmlDoc.getElementsByTagName("CD");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("ARTISTE")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("TITRE")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+	 x[i].getElementsByTagName("ANNEE_DE_SORTIE")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+	 x[i].getElementsByTagName("NOMBRE_DE_TITRE")[0].childNodes[0].nodeValue +
+    "</td></td>"
+	
+	;
+
+  }
+  document.getElementById("icionchargelaliste").innerHTML = table;
+}
+</script>
+
+</body>
+</html>

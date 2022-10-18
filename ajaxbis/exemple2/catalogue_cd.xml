@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <CD>
+    <TITRE>Going to Hell</TITRE>
+    <ARTISTE>The Pretty Reckless</ARTISTE>
+    <NOMBRE_DE_TITRE>12</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2014</ANNEE_DE_SORTIE>
+  </CD>
+  
+  <CD>
+    <TITRE>Soul on Fire</TITRE>
+    <ARTISTE>The Last Internationale</ARTISTE>
+	<NOMBRE_DE_TITRE>13</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2020</ANNEE_DE_SORTIE>
+  </CD>
+  
+  <CD>
+    <TITRE>Ah bas ouais mais bon</TITRE>
+    <ARTISTE>Les Wriggles</ARTISTE>
+	<NOMBRE_DE_TITRE>14</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2002</ANNEE_DE_SORTIE>
+  </CD>
+  
+  <CD>
+    <TITRE>The Hypnoflip Invasion</TITRE>
+    <ARTISTE>Stupeflip</ARTISTE>
+	<NOMBRE_DE_TITRE>21</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2011</ANNEE_DE_SORTIE>
+  </CD>
+  
+  <CD>
+    <TITRE>Objectif: Thunes</TITRE>
+    <ARTISTE>Ultra Vomit</ARTISTE>
+	<NOMBRE_DE_TITRE>24</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2008</ANNEE_DE_SORTIE>
+  </CD>
+  
+   <CD>
+    <TITRE>Thirteen Tales From Urban Bohemia</TITRE>
+    <ARTISTE>The Dandy Warhols</ARTISTE>
+	<NOMBRE_DE_TITRE>13</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2000</ANNEE_DE_SORTIE>
+  </CD>
+  
+   <CD>
+    <TITRE>Let It Rock</TITRE>
+    <ARTISTE>Kevin Rudolf</ARTISTE>
+	<NOMBRE_DE_TITRE>1</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2008</ANNEE_DE_SORTIE>
+  </CD>
+  
+   <CD>
+    <TITRE>Feed the Machine</TITRE>
+    <ARTISTE>Nickelback</ARTISTE>
+	<NOMBRE_DE_TITRE>11</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2017</ANNEE_DE_SORTIE>
+  </CD>
+  
+   <CD>
+    <TITRE>Miss America</TITRE>
+    <ARTISTE>Saving Abel</ARTISTE>
+	<NOMBRE_DE_TITRE>11</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2010</ANNEE_DE_SORTIE>
+  </CD>
+  
+   <CD>
+    <TITRE>Brothers</TITRE>
+    <ARTISTE>Rilès</ARTISTE>
+	<NOMBRE_DE_TITRE>1</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2016</ANNEE_DE_SORTIE>
+  </CD>
+  
+   <CD>
+    <TITRE>Be Mine</TITRE>
+    <ARTISTE>Ofenbach</ARTISTE>
+	<NOMBRE_DE_TITRE>1</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2016</ANNEE_DE_SORTIE>
+  </CD>
+  
+   <CD>
+    <TITRE>Wake Up Call</TITRE>
+    <ARTISTE>Theory of a Deadman</ARTISTE>
+	<NOMBRE_DE_TITRE>11</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2017</ANNEE_DE_SORTIE>
+  </CD>
+  
+     <CD>
+    <TITRE>Matures et découvertes</TITRE>
+    <ARTISTE>Les 3 Fromages</ARTISTE>
+	<NOMBRE_DE_TITRE>13</NOMBRE_DE_TITRE>
+    <ANNEE_DE_SORTIE>2015</ANNEE_DE_SORTIE>
+  </CD>
+ 
+</CATALOG>
